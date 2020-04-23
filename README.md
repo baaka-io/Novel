@@ -3,7 +3,7 @@ A website (maybe an electron app too) that provides a custom UI for [wuxiaworld]
 
 ## Documentation
 
-(Issue Board)[https://github.com/baaka-io/Novel/projects/1?fullscreen=true]
+[Issue Board](https://github.com/baaka-io/Novel/projects/1?fullscreen=true)
 
 ## Ideas
 
