@@ -1,5 +1,5 @@
 # Novel
-A website (maybe an electron app too) that provides a custom UI for wuxiaworld (and other, to be decided, novel providers) novels.
+A website (maybe an electron app too) that provides a custom UI for [wuxiaworld](https://www.wuxiaworld.com/) (and other, to be decided, novel providers) novels.
 
 ## Ideas
 
