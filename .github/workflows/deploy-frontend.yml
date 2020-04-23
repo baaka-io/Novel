@@ -1,0 +1,13 @@
+name: Deploy Frontend
+on:
+  push:
+    branches: [ master ]
+    paths: 
+      - "frontend/"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - id: Notify Netlify
+        run: curl -X POST -d {} ${{ NETLIFY_BUILD_HOOK }}
+    
