@@ -3,6 +3,10 @@ A website (maybe an electron app too) that provides a custom UI for wuxiaworld (
 
 ## Ideas
 
+### Git
+
+I will be using 2 seperate branches, master and dev.
+
 ### Technologies
 
 #### Frontend
