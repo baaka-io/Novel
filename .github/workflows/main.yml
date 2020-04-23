@@ -1,0 +1,9 @@
+name: Deploy Backend
+on:
+  push:
+    branches: [ master ]
+    paths: 
+      - "backend/*"
+jobs:
+  build:
+    runs-on: ubuntu-latest
