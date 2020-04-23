@@ -1,4 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1be3382-7307-4c2e-bff8-d6576df7a512/deploy-status)](https://app.netlify.com/sites/novelbaakaio/deploys)
+
 # Novel
+
 A website (maybe an electron app too) that provides a custom UI for [wuxiaworld](https://www.wuxiaworld.com/) (and other, to be decided, novel providers) novels.
 
 ## Documentation
@@ -36,7 +39,7 @@ This will ensure that, even if I forget to pay the backend or the server goes do
 
 The application will respect the theme preferences of the operating system (dark/light mode).
 
-Fetching and searching novels will be implemented by using a headless browser. 
+Fetching and searching novels will be implemented by using a headless browser.
 
 It might be required to introduce a cache for each novel chapter to improve the response time of the endless reading experience.
 
@@ -49,7 +52,7 @@ Novel Searching will be realised by using the [novelupdates](https://novelupdate
 ### Novel Reader
 
 It would be also cool if you could prefetch the novels into localstorage of something like that, so that offline reading is possible.
-The Novels themself will be read in an infinite scroll manner. 
+The Novels themself will be read in an infinite scroll manner.
 The next chapter gets loaded automatically when needed, to provide a seemless experience when reading your favorite novels.
 The Novel Reader should also make the comments of each chapter available for the reader (I've had a lot of fun experiences in the past only because of the commments, so this is a must have).
 Writing comments over the website might be hard or even not possible. This is not in the scope of the project since I am always lurking and not writing anyway.
