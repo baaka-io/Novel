@@ -1,6 +1,10 @@
 # Novel
 A website (maybe an electron app too) that provides a custom UI for [wuxiaworld](https://www.wuxiaworld.com/) (and other, to be decided, novel providers) novels.
 
+## Documentation
+
+(Issue Board)[https://github.com/baaka-io/Novel/projects/1?fullscreen=true]
+
 ## Ideas
 
 ### Git
