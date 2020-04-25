@@ -8,10 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Call deploy script on droplet
+    - name: Deploy to droplet
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.BACKEND_HOST }}
         username: ${{ secrets.BACKEND_USERNAME }}
         key: ${{ secrets.BACKEND_SSH_KEY }}
-        script: cd ~/workspace/Novel/backend && ./deploy.sh
+        script: cd ~/workspace/Novel && git pull && cd .. && docker-compose build novel
