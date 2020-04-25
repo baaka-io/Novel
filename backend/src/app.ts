@@ -7,11 +7,13 @@ import logger from "./logger";
 const app = express();
 
 app.use(express.json());
+app.get("/api/routes", (_, res) => res.json(trainStation.getRoutes()));
 
 if (env.isDev) {
   trainStation.enableHotReload();
   logger.info("Hot Reloading is enabled");
 }
+
 trainStation.generateRoutes(path.join(__dirname, "routes"));
 trainStation.register(app);
 
