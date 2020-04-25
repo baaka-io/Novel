@@ -8,5 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - id: temp
-        run: echo temp
+    - name: Call deploy script on droplet
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.BACKEND_HOST }}
+        username: ${{ secrets.BACKEND_USERNAME }}
+        key: ${{ secrets.BACKEND_SSH_KEY }}
+        script: ls -al
