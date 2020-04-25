@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f1be3382-7307-4c2e-bff8-d6576df7a512/deploy-status)](https://app.netlify.com/sites/novelbaakaio/deploys)
+![Deploy Backend](https://github.com/baaka-io/Novel/workflows/Deploy%20Backend/badge.svg?branch=master)
 
 # Novel
 
