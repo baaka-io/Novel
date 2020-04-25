@@ -14,4 +14,4 @@ jobs:
         host: ${{ secrets.BACKEND_HOST }}
         username: ${{ secrets.BACKEND_USERNAME }}
         key: ${{ secrets.BACKEND_SSH_KEY }}
-        script: ls -al
+        script: cd ~/workspace/baaka.io/Novel && ./deploy.sh
