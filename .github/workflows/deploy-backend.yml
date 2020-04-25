@@ -14,4 +14,4 @@ jobs:
         host: ${{ secrets.BACKEND_HOST }}
         username: ${{ secrets.BACKEND_USERNAME }}
         key: ${{ secrets.BACKEND_SSH_KEY }}
-        script: cd ~/workspace/Novel && git pull && cd .. && docker-compose up --detach --build
+        script: cd ~/workspace/Novel && git pull && cd .. && docker-compose up -d --build
