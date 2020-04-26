@@ -1,0 +1,29 @@
+defaultRole: User
+domain: localhost 
+port: 8080 
+autoMigrate: true
+persistEntities: true 
+jwt:
+  secret: secret
+db:
+  host: postgres
+  port: 5432
+  dbname: admin
+  username: admin
+  password: admin
+oauth2:
+  secret: secret 
+accounts:
+  - username: admin
+    email: admin@admin.com
+    password: test
+    role: Admin
+roles:
+  - name: Admin
+    privileges:
+      - CreateUser
+  - name: User
+    privileges:
+      - CreateUser
+privileges:
+  - CreateUser

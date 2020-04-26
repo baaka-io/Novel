@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "io-ts": "^2.2.1",
     "io-ts-validations": "^1.1.0",
-    "trainstation": "^1.0.7",
+    "trainstation": "^1.0.8",
     "winston": "^3.2.1"
   },
   "devDependencies": {
